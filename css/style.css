@@ -1,3 +1,9 @@
+/*for the contact us box*/
+*{
+    box-sizing: border-box;
+  }
+
+
 body{
     width: 100%;
     background: linear-gradient(#232224, #363233, #1d0c08);
@@ -32,9 +38,7 @@ a{
 
 nav{
     padding: 0 20px 0;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+    text-align: center;
 }
 
 nav ul{
@@ -45,6 +49,10 @@ nav ul{
 nav li{
     display: inline;
     margin-right: 10px;
+}
+
+nav img{
+    width: 50px;
 }
 
 /*****************************************/
@@ -64,6 +72,7 @@ nav li{
 }
 
 footer{
+    text-align: center;
     width: 100%;
     padding: 20px 0 10px;
 }
@@ -73,8 +82,13 @@ footer p{
     color: #5c5c5c;
 }
 
-footer a{
+footer a, footer a:hover{
     color: #999999;
+}
+
+ion-icon {
+    font-size: 25px;
+    padding: 0 10px;
 }
 
 
@@ -115,18 +129,18 @@ footer a{
 /*************************************************/
 /**************** CONTACT FORM ***************/
 /*************************************************/
-  
+
   .contact-form{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   .wrapper{
     width: 350px;
     background: #fff;
     padding: 25px;
-    padding-right: 45px;
+    /*padding-right: 45px;*/
     margin: 35px;
     border-radius: 5px;
     box-shadow: 4px 4px 2px rgba(254,236,164,1); 
@@ -224,7 +238,6 @@ footer a{
     .languagelist{
         width: 450px;
     }
-
 
 }
 
