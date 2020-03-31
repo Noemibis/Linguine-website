@@ -12,18 +12,6 @@ body{
     font-size: 13pt;
 }
 
-.home-button{
-    width: 100%;
-    font-family: 'Pacifico', Helvetica, sans-serif;
-    font-size: 15pt;
-    text-align: center;
-}
-
-.home-button a{
-    text-decoration: none;
-    color: tomato;
-}
-
 main {
     padding: 10px;
     text-align: center;
@@ -53,6 +41,26 @@ nav li{
 
 nav img{
     width: 50px;
+}
+
+/*logo*/
+.home-button{
+    width: 100%;
+    font-family: 'Pacifico', Helvetica, sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button img{
+    width: 100px;
+}
+
+.home-button a{
+    text-decoration: none;
+    color: tomato;
 }
 
 /*****************************************/
@@ -200,6 +208,15 @@ ion-icon {
 /*************************************************/
 
 @media (min-width:850px) {
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-set{
+    width: 300px;
+}
 
 .languages{
     display: flex;
