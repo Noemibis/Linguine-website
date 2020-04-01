@@ -10,6 +10,7 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13pt;
+    line-height: 25px;
 }
 
 main {
@@ -22,16 +23,16 @@ a{
     color: white;
 }
 
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
 /**************** NAV ***************/
 
 nav{
     padding: 0 20px 0;
     text-align: center;
-}
-
-nav ul{
-    list-style-type: none;
-    padding-inline-start: 0px;
 }
 
 nav li{
@@ -87,10 +88,6 @@ nav img{
     color: #999999;
 }
 
-.small-description ul{
-    list-style-type: none;
-}
-
 footer{
     text-align: center;
     width: 100%;
@@ -126,11 +123,6 @@ ion-icon {
 
 .template p, .template li{
     font-size: 16px;
-}
-
-/* about page list*/
-.template ul{
-    padding-inline-start: 0px;
 }
 
 .template a{
