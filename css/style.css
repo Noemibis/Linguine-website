@@ -64,7 +64,6 @@ nav img{
     color: tomato;
 }
 
-/*****************************************/
 /**************** HOME-PAGE ***************/
 
 .languagelist, .template{
@@ -108,8 +107,6 @@ ion-icon {
     padding: 0 10px;
 }
 
-
-/******************************************/
 /*********** TEMPLATE LANGUAGES ***********/
 
 .template{
@@ -138,9 +135,7 @@ ion-icon {
     width: 100%;
 }
 
-/*************************************************/
 /**************** CONTACT FORM ***************/
-/*************************************************/
 
   .contact-form{
     display: flex;
@@ -205,6 +200,15 @@ ion-icon {
     font-size: 14px;
     transition: all 0.5s ease;
   }
+
+/**************** CONTACT FORM ***************/
+
+.block-text li{
+    list-style-type: disc;
+    padding: 20px;
+}
+
+
  
 
 /*************************************************/
