@@ -66,6 +66,7 @@ nav img{
 
 /**************** HOME-PAGE ***************/
 
+/* width for all the pages */
 .languagelist, .template{
     width: 300px;
     margin: 0 auto;
@@ -87,6 +88,7 @@ nav img{
     color: #999999;
 }
 
+/* FOOTER */
 footer{
     text-align: center;
     width: 100%;
@@ -102,13 +104,14 @@ footer a, footer a:hover{
     color: #999999;
 }
 
+/* social media icons from web */
 ion-icon {
     font-size: 25px;
     padding: 0 10px;
 }
 
 /*********** TEMPLATE LANGUAGES ***********/
-
+/* the template is the same for each language page */
 .template{
     text-align: left;
 }
@@ -127,6 +130,7 @@ ion-icon {
     text-decoration: underline;
 }
 
+/* text in english */
 .eng{
     color: rgb(202,205,204, 0.5);
 }
@@ -135,6 +139,7 @@ ion-icon {
     width: 100%;
 }
 
+/* to give space between senteces */
 .sentence{
     padding-bottom: 20px;
     line-height: 20px;
@@ -210,7 +215,7 @@ ion-icon {
     transition: all 0.5s ease;
   }
 
-/**************** CONTACT FORM ***************/
+/**************** ABOUT ***************/
 
 .block-text li{
     list-style-type: disc;
@@ -230,11 +235,6 @@ nav{
     margin: 30px;
     /*overflow: auto;*/
 }
-
-/*
-main{
-    height: 550px;
-}*/
 
 .template{
     overflow: auto;
@@ -279,6 +279,7 @@ main{
 
 @media (min-width:1100px) {
 
+/*********** HOME PAGE ***********/    
     .languagelist{
         width: 450px;
     }
