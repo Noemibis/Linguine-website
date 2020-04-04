@@ -135,6 +135,15 @@ ion-icon {
     width: 100%;
 }
 
+.sentence{
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+.sentence p{
+    margin: 0;
+}
+
 /**************** CONTACT FORM ***************/
 
   .contact-form{
@@ -261,6 +270,7 @@ main{
 .block-img, .block-text{
     width: 50%;
 }
+
 }
 
 /*************************************************/
